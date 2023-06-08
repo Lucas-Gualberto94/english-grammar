@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+
+/*Main*/
+
+.main {
+  color: white;
+  margin-left: 5rem;
+}
+
+/*sideBar*/
+.sideBar {
+  height: screen;
+}
