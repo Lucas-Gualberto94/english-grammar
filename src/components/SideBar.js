@@ -1,6 +1,5 @@
 import { Sidebar, Menu, MenuItem, SubMenu, useProSidebar } from "react-pro-sidebar";
-import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
-import PeopleOutlinedIcon from "@mui/icons-material/PeopleOutlined";
+
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 
 const SideBar = () => {
@@ -16,35 +15,34 @@ const SideBar = () => {
           }}
           style={{ textAlign: "center" }}
         >
-          {" "}
           <h2>Topics</h2>
         </MenuItem>
-        <SubMenu icon={<HomeOutlinedIcon />} label="Present">
-          <MenuItem icon={<PeopleOutlinedIcon />}>Simple Present</MenuItem>
-          <MenuItem icon={<PeopleOutlinedIcon />}>Present Continuous</MenuItem>
-          <MenuItem icon={<PeopleOutlinedIcon />}>Present Perfect</MenuItem>
-          <MenuItem icon={<PeopleOutlinedIcon />}>Present Perfect Continuous</MenuItem>
+        <SubMenu label="Present">
+          <MenuItem>Simple Present</MenuItem>
+          <MenuItem>Present Continuous</MenuItem>
+          <MenuItem>Present Perfect</MenuItem>
+          <MenuItem>Present Perfect Continuous</MenuItem>
         </SubMenu>
 
-        <SubMenu icon={<HomeOutlinedIcon />} label="Past Tense">
-          <MenuItem icon={<PeopleOutlinedIcon />}>Simple Past</MenuItem>
-          <MenuItem icon={<PeopleOutlinedIcon />}>Past Continuous</MenuItem>
-          <MenuItem icon={<PeopleOutlinedIcon />}>Past Perfect</MenuItem>
-          <MenuItem icon={<PeopleOutlinedIcon />}>Past Perfect Continuous</MenuItem>
+        <SubMenu label="Past Tense">
+          <MenuItem>Simple Past</MenuItem>
+          <MenuItem>Past Continuous</MenuItem>
+          <MenuItem>Past Perfect</MenuItem>
+          <MenuItem>Past Perfect Continuous</MenuItem>
         </SubMenu>
 
-        <SubMenu icon={<HomeOutlinedIcon />} label="Future Tense">
-          <MenuItem icon={<PeopleOutlinedIcon />}>Simple Future</MenuItem>
-          <MenuItem icon={<PeopleOutlinedIcon />}>Future Continuous</MenuItem>
-          <MenuItem icon={<PeopleOutlinedIcon />}>Future Perfect</MenuItem>
-          <MenuItem icon={<PeopleOutlinedIcon />}>Future Perfect Continuous</MenuItem>
+        <SubMenu label="Future Tense">
+          <MenuItem>Simple Future</MenuItem>
+          <MenuItem>Future Continuous</MenuItem>
+          <MenuItem>Future Perfect</MenuItem>
+          <MenuItem>Future Perfect Continuous</MenuItem>
         </SubMenu>
 
-        <SubMenu icon={<HomeOutlinedIcon />} label="Conditional">
-          <MenuItem icon={<PeopleOutlinedIcon />}>Zero Conditional</MenuItem>
-          <MenuItem icon={<PeopleOutlinedIcon />}>1° Conditional</MenuItem>
-          <MenuItem icon={<PeopleOutlinedIcon />}>2° Conditional</MenuItem>
-          <MenuItem icon={<PeopleOutlinedIcon />}>3° Conditional</MenuItem>
+        <SubMenu label="Conditional">
+          <MenuItem>Zero Conditional</MenuItem>
+          <MenuItem>1° Conditional</MenuItem>
+          <MenuItem>2° Conditional</MenuItem>
+          <MenuItem>3° Conditional</MenuItem>
         </SubMenu>
 
       </Menu>

@@ -42,10 +42,26 @@
 
 .main {
   color: white;
-  margin-left: 5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.main h1 {
+  margin: 2rem;
+  text-align: center;
 }
 
 /*sideBar*/
 .sideBar {
   height: screen;
+}
+
+/*Topics*/
+.container h2 {
+ color: red;
+}
+
+.container p {
+  text-indent: 1rem;
+  text-align: justify;
 }
